@@ -1,0 +1,27 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "A portfolio app built with Vite",
+    "main": "index.js",
+    "homepage": "https://queenhekate.github.io/portfolio/",
+ 
+    "scripts": {
+      "dev": "vite --open",
+      "build": "vite build",
+      "preview": "vite preview",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "vite": "^5.3.0",
+      "gh-pages": "^5.0.0"
+    }
+  }
